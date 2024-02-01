@@ -227,6 +227,8 @@ spec:
           value: $(params.pipeline-debug)
         - name: ibmcloud-api
           value: $(params.ibmcloud-api)
+        - name: ibmcloud-apikey-secret-key
+          value: "toolchain-apikey"
         - name: ibmcloud-region
           value: $(params.ibmcloud-region)
         - name: env-props
